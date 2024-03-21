@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigationPatternsMAUI", "NavigationPatternsMAUI\NavigationPatternsMAUI.csproj", "{BE16CB0E-0316-4B55-A911-B07D36074DE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE16CB0E-0316-4B55-A911-B07D36074DE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE16CB0E-0316-4B55-A911-B07D36074DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE16CB0E-0316-4B55-A911-B07D36074DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE16CB0E-0316-4B55-A911-B07D36074DE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E55D7AD-5F52-4E44-AB50-A73AEB6ACE48}
+	EndGlobalSection
+EndGlobal
