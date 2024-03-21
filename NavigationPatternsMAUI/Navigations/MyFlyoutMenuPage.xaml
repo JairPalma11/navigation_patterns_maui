@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:models="clr-namespace:NavigationPatternsMAUI.Models"
              xmlns:pages="clr-namespace:NavigationPatternsMAUI.Pages"
+             Padding="20"
              x:Class="NavigationPatternsMAUI.Navigations.MyFlyoutMenuPage">
     <CollectionView
         SelectionMode="Single"
@@ -12,15 +13,18 @@
         <CollectionView.ItemsSource>
 
             <x:Array Type="{x:Type models:FlyoutItemModel}">
-                <models:FlyoutItemModel Title="Contactos"
-                                      ImageUrl="contacts.png"
-                                      PageType="{x:Type pages:ContactPage}" />
-                <models:FlyoutItemModel Title="Perfil"
-                                      ImageUrl="todo.png"
-                                      PageType="{x:Type pages:ProfilePage}" />
-                <models:FlyoutItemModel Title="Acerca"
-                                      ImageUrl="reminders.png"
-                                      PageType="{x:Type pages:AboutPage}" />
+                <models:FlyoutItemModel
+                    Title="Contactos"
+                    ImageUrl="call_icon"
+                    PageType="{x:Type pages:ContactPage}" />
+                <models:FlyoutItemModel
+                    Title="Perfil"
+                    ImageUrl="person_icon"
+                    PageType="{x:Type pages:ProfilePage}" />
+                <models:FlyoutItemModel
+                    Title="Acerca"
+                    ImageUrl="info_icon"
+                    PageType="{x:Type pages:AboutPage}" />
             </x:Array>
 
         </CollectionView.ItemsSource>
@@ -32,13 +36,15 @@
                <ContentView>
 
                     <HorizontalStackLayout
+                        Margin="10"
                         Spacing="10">
 
                         <Image
                             Source="{Binding ImageUrl}"
-                            WidthRequest="50"
-                            HeightRequest="50" />
+                            WidthRequest="30"
+                            HeightRequest="30" />
                         <Label
+                            VerticalTextAlignment="Center"
                             Text="{Binding Title}" />
 
                     </HorizontalStackLayout>

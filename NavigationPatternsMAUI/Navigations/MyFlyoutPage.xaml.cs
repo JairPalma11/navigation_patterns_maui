@@ -7,7 +7,7 @@ public partial class MyFlyoutPage : FlyoutPage
 	public MyFlyoutPage()
 	{
 		InitializeComponent();
-        myFlyoutMenuPage.collectionView.SelectionChanged += OnSelectionChanged;
+       // myFlyoutMenuPage.collectionView.SelectionChanged += OnSelectionChanged;
     }
 
     void OnSelectionChanged(object sender, SelectionChangedEventArgs e)
