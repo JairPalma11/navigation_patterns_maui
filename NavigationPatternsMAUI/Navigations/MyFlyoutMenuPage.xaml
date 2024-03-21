@@ -4,6 +4,7 @@
              xmlns:models="clr-namespace:NavigationPatternsMAUI.Models"
              xmlns:pages="clr-namespace:NavigationPatternsMAUI.Pages"
              Padding="20"
+             Title="Menu"
              x:Class="NavigationPatternsMAUI.Navigations.MyFlyoutMenuPage">
     <CollectionView
         SelectionMode="Single"

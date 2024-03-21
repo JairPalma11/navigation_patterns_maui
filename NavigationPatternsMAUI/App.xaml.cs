@@ -16,6 +16,7 @@ public partial class App : Application
         //Ejemplo de una sola pantalla
         //MainPage = new SimpleNavigationPage();
 
+        //Ejemplo de flyout
         MainPage = new MyFlyoutPage();
     }
 }
