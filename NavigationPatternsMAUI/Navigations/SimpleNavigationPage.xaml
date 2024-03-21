@@ -2,11 +2,15 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NavigationPatternsMAUI.Navigations.SimpleNavigationPage"
+             Padding="20"
              Title="SimpleNavigationPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Bienvenidos a una navegacion de una sola pagina"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+    <VerticalStackLayout
+        Spacing="20">
+        <Label
+            FontSize="Large"
+            Text="Bienvenidos a una navegacion de una sola pagina"/>
+        <Label
+            FontSize="Medium"
+            Text="Esta es una app con una sola pantalla de usuario." />
     </VerticalStackLayout>
 </ContentPage>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NavigationPatternsMAUI.Navigations.StackNavigationPage"
+             Padding="20"
+             Title="Pagina Principal">
+    <VerticalStackLayout
+        VerticalOptions="CenterAndExpand"
+        Spacing="20">
+        <Label 
+            Text="Esta es la pagina principal"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Button
+            Clicked="Button_Clicked"
+            Text="Presiona para ir al detalle" />
+    </VerticalStackLayout>
+</ContentPage>
