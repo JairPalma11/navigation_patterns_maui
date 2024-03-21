@@ -67,8 +67,22 @@
 
 	<ItemGroup>
 	  <None Remove="Navigations\" />
+	  <None Remove="Pages\" />
+	  <None Remove="Resources\Images\person_icon.svg" />
+	  <None Remove="Resources\Images\grid_image.png" />
+	  <None Remove="Resources\Images\email_icon.svg" />
+	  <None Remove="Resources\Images\call_icon.svg" />
+	  <None Remove="Resources\Images\background_sample.png" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Navigations\" />
+	  <Folder Include="Pages\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <BundleResource Include="Resources\Images\person_icon.svg" />
+	  <BundleResource Include="Resources\Images\grid_image.png" />
+	  <BundleResource Include="Resources\Images\email_icon.svg" />
+	  <BundleResource Include="Resources\Images\call_icon.svg" />
+	  <BundleResource Include="Resources\Images\background_sample.png" />
 	</ItemGroup>
 </Project>

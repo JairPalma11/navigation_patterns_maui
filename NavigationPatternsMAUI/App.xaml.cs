@@ -8,7 +8,8 @@ public partial class App : Application
 	{
 		InitializeComponent();
         //NavigationPage tiene que ser el main
-        MainPage = new NavigationPage(new StackNavigationPage());
-	}
+        MainPage = new MyTabbedPage();//new NavigationPage(new StackNavigationPage());
+
+    }
 }
 
